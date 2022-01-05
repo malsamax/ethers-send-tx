@@ -29,7 +29,6 @@ const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
 const MAIN = new Wallet(config.forkWallet, provider); //new Wallet(config.masterWallet, provider);
 const CHANNEL_OWNER = new Wallet(config.forkWallet2, provider); //new Wallet(config.secondWallet, provider);
 const THIRD_PARTY = new Wallet(config.forkWallet3, provider); //new Wallet(config.thirdWallet, provider);
-// const FORK_WALLET = new Wallet(config.forkWallet, provider); 
 
 // Instantiate contract (EPNS)
 const contract = new ethers.Contract(config.deployedContract, config.deployedContractABI, provider);
