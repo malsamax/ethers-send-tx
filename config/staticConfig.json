@@ -1,0 +1,25 @@
+{
+    "NODE_ENV": "development",
+    "PORT": "5432",
+    "RUNNING_ON_MACHINE": "windows",
+    "TRUSTED_URLS": [ "https://epns.io", "https://backend.epns.io", "https://app.epns.io", "https://www.epns.io" ],
+
+    "SERVE_STATIC_FILES": "public",
+    "SERVE_CACHE_FILES": "cache",
+    "LOG_LEVEL": "debug",
+    "DEFAULT_MAX_ATTEMPTS": 3,
+
+    "IPFS_MAX_ATTEMPTS": 3,
+    "IPFS_GATEWAY": "https://gateway.ipfs.io/ipfs/",
+    "IPFS_LOCAL_ENDPOINT": "/ip4/0.0.0.0/tcp/5001",
+    "IPFS_INFURA_ENDPOINT": "https://ipfs.infura.io:5001",
+
+    "POLYGON_MAINNET_RPC": "https://rpc-mainnet.maticvigil.com",
+    "POLYGON_MUMBAI_RPC": "https://rpc-mumbai.maticvigil.com",
+
+    "KOVAN_WEB3_NETWORK": "kovan",
+    "ROPSTEN_WEB3_NETWORK": "ropsten",
+    "MAINNET_WEB3_NETWORK": "homestead",
+
+    "ROPSTEN_CHAIN_ID": 3    
+}
